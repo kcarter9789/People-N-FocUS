@@ -1,0 +1,21 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application for managing a company's employee database. This application allows users to view and manage the departments, roles, and employees in a company. Users can view all departments, roles, or employees, add a department, role, or employee, or update an employee role. The application uses Node.js, Inquirer, and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SQL Challenge",
+    "Employee Tracker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.3.1"
+  }
+}
